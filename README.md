@@ -22,7 +22,7 @@ Ensure you have the following installed:
 
 - [Java Development Kit (JDK) 17](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
 - [Gradle](https://gradle.org/install/)
-- [PostgreSQL](https://www.postgresql.org/download/).
+- [PostgreSQL](https://www.postgresql.org/download/)
 
 ## Installation
 
