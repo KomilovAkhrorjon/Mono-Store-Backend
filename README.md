@@ -33,3 +33,20 @@ Ensure you have the following installed:
 
    ```bash
    git clone https://github.com/KomilovAkhrorjon/Mono-Store-Backend.git
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd Mono-Store-Backend
+    
+3. Configure the Database:
+
+   Update the application.properties file located in src/main/resources with your database credentials:
+
+    ```bash
+    spring.datasource.url=jdbc:postgresql://localhost:5432/your-database-name
+    ```bash
+    spring.datasource.username=your-username
+    ```bash
+    spring.datasource.password=your-password
+
