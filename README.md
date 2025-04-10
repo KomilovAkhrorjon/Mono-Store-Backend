@@ -9,9 +9,6 @@ Mono Store Backend is a Java Spring Boot application designed to manage the back
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Authors](#authors)
 
 ## Features
 
@@ -39,14 +36,21 @@ Ensure you have the following installed:
     ```bash
     cd Mono-Store-Backend
     
-3. Configure the Database:
+3. **Configure the Database:**
 
    Update the application.properties file located in src/main/resources with your database credentials:
 
     ```bash
     spring.datasource.url=jdbc:postgresql://localhost:5432/your-database-name
-    ```bash
     spring.datasource.username=your-username
-    ```bash
     spring.datasource.password=your-password
 
+4. **Build the Project:**
+   
+    ```bash
+   ./gradlew build
+
+5. **Run the Application:**
+
+   ```bash
+   ./gradlew bootRun
