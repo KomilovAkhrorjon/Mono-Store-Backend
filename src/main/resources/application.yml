@@ -1,0 +1,5 @@
+jwt:
+  secret: 36fgsbrasdasdafdasdfijasoidfjw4e90rju20943rasdw3efdafqa4rfaq4fq34fq34yuhfr98743hyrdssjdgadsgfasyege67fq73fga3w78g378g37w8gw837fg64gfae67gfiae64gfa67kewg3w6awg36grawfawgk6fegehgfawhasdkljfhaskljdhflkasjhfliauwehfbwauicbniawhegdcuiasdhcalsiudhfqwe78byqo783wb489q23bcyu49o832yc4b98qw3ybc4po9823ycb489ywaobichwuier
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_IP:176.96.241.123}:5432/mono_market
